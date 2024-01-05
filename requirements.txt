@@ -1,0 +1,51 @@
+##### Core packages
+#matplotlib~=3.4.3
+### funktinoiert nicht mit dieser Version
+# Zusätzlich muss das Ubuntu-Paket freetype in der developement-Version installiert werden
+#apt-get install libfreetype-dev
+
+#######################
+# Wichtiger Hinweis!!!
+# Die Pakete nur so installieren wie angegeben. 
+# tensorflow und keras NICHT mit conda installieren!!!
+#######################
+
+
+# python 3.7.12/13
+matplotlib=2.2.3
+
+# Channel -c conda-forge
+imageio=2.15.0
+imageio-ffmpeg=0.4.5
+
+### Alles zusammen
+scikit-learn=1.0.2
+pandas=1.3.5
+seaborn=0.11.2
+
+scikit-image=0.19.2
+# numpy=1.19.4
+numpy=1.19.3
+gym=0.21.0
+tensorflow-probability=0.12.2
+###
+
+# Mit pip installieren (in \envs\ML_Intro\Scripts)
+tensorflow==2.4.0
+Keras=2.4.0
+tf-agents==0.8.0
+# Ende pip
+
+keras=2.4
+
+
+pydot=1.4.1
+graphviz=2.38
+networkx=2.3
+
+
+
+
+
+
+
